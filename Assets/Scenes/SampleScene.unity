@@ -663,7 +663,7 @@ MonoBehaviour:
   cam: {fileID: 963194227}
   walkFov: 60
   sprintFov: 80
-  smoothing: 0.5
+  smoothing: 0.1
 --- !u!143 &1472089965
 CharacterController:
   m_ObjectHideFlags: 0

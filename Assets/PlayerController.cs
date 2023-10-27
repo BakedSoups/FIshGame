@@ -40,7 +40,6 @@ public class PlayerController : MonoBehaviour
         float targetFov;
         if(movement.magnitude > 0) {
             targetFov = isSprinting ? sprintFov : walkFov;
-            cam.fieldOfView = isSprinting ? sprintSpeed : walkSpeed; //turing
         }
         else {
             targetFov = walkFov;
